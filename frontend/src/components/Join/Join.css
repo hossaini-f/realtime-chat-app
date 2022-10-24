@@ -1,0 +1,87 @@
+.joinOuterContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  align-items: center;
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+
+.joinInnerContainer {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.joinInput {
+  border-radius: 0;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid #888;
+  padding: 10px 10px;
+  width: 90%;
+  transition: all .4s;
+}
+
+.joinInput:focus {
+  background-color: #fff;
+  padding-left: 10px;
+  border-bottom: none;
+}
+
+.heading {
+  color: white;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  border-bottom: 2px solid white;
+}
+.button {
+  background-image: linear-gradient(-180deg, #37AEE2 0%, #1E96C8 100%);
+  text-transform: uppercase;
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-size: 16px;
+  justify-content: center;
+  padding: 1rem 1.75rem;
+  text-decoration: none;
+  width: 100%;
+  border: 0;
+  cursor: pointer;
+  user-select: none;
+  touch-action: manipulation;
+  margin-top: 100px;
+}
+
+.button:hover {
+  background-image: linear-gradient(-180deg, #1D95C9 0%, #17759C 100%);
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .button {
+    padding: 1rem 2rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .joinOuterContainer {
+    height: 100%;
+  }
+
+  .joinInnerContainer {
+    width: 90%;
+  }
+
+
+}
+
+button:focus {
+  outline: 0;
+}

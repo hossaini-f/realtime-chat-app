@@ -1,0 +1,34 @@
+.form {
+  display: flex;
+  border-top: 1px solid #ddd;
+}
+
+.input {
+  border: none;
+  border-radius: 0;
+  padding: 6px 20px;
+  width: 80%;
+  font-size: 1.2em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+.sendButton {
+  background-image: linear-gradient(-180deg, #37AEE2 0%, #1E96C8 100%);
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-size: 16px;
+  justify-content: center;
+  padding: 1rem 1.75rem;
+  text-decoration: none;
+  border: 0;
+  cursor: pointer;
+  user-select: none;
+  touch-action: manipulation;
+}
